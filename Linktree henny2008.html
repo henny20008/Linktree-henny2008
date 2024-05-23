@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link-Tree</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            margin: 0;
+        }
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffffaa; /* semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            object-fit: cover; /* Ensures the image covers the container */
+            border: 5px solid #fff; /* Optional: Adds a white border around the image */
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .link {
+            display: block;
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #0073e6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .link:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://p16-sign-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-euttp/9a3b2590c9ee88fcd541b130ad206015~c5_100x100.jpeg?lk3s=a5d48078&nonce=3131&refresh_token=f0ac521a341c8daada5332786335ccde&x-expires=1716631200&x-signature=DHZj5lQhyIyooosA15f%2BbAr9MAg%3D&shp=a5d48078&shcp=81f88b70" alt="Profilbild" class="profile-pic">
+        <h1>My Link-Tree</h1>
+        <a class="link" href="https://m.youtube.com/channel/UCD-057hPDRq_lYoSOz6F22w" target="_blank">YouTube</a>
+        <a class="link" href="https://www.instagram.com/_hendrikmaas_?igsh=b3QydXZ6dXhjYWxs&utm_source=qr" target="_blank">Instagram</a>
+        <a class="link" href="https://x.com/Hendrik0897" target="_blank">X (Twitter)</a>
+    </div>
+</body>
+</html>
